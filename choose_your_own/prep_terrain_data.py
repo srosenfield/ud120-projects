@@ -2,7 +2,7 @@
 import random
 
 
-def makeTerrainData(n_points=1000):
+def makeTerrainData(n_points=1000): #formerly 1000 before Steve's edit
 ###############################################################################
 ### make the toy dataset
     random.seed(42)
@@ -40,4 +40,3 @@ def makeTerrainData(n_points=1000):
             , "slow":{"grade":grade_bkg, "bumpiness":bumpy_bkg}}
 
     return X_train, y_train, X_test, y_test
-
